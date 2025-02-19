@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    background-color: #efefef;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.title {
+    font-size: 18px;
+    color: darkslategray;
+    margin-bottom: 30px;
+}
+
+.input {
+    background: url("./images/icons8-search-50.png") no-repeat scroll 7px 7px;
+    background-size: 16px;
+    width: 300px;
+    padding: 8px;
+    background-size: 16px;
+    padding-left: 30px;
+    border: 0.5px solid lightgrey;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.search-container{
+    border: 0.5px solid lightgrey;
+    border-radius: 2px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    width: 495px;
+    height: 2px;
+}
+.Ethan-Linker-container {
+    border: 0.5px solid lightgrey;
+    border-radius: 2px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    width: 495px;
+    height: 100px;
+}
+
+.Footer-container{
+    border: 0.5px solid lightgrey;
+    border-radius: 2px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    width: 495px;
+    height: 2px;
+}
+.search-btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 8px;
+    width: 175px;
+    background: seagreen;
+    color: white;
+    border: 3px;
+    border-radius: 1px;
+}
+
+.search-name {
+    color: dimgrey;
+    margin-bottom: 8px;
+    margin-left: 206px;
+}
+.user-name {
+    color: dimgrey;
+    margin-bottom: 8px;
+    margin-left: 176px;
+}
+.result-name{
+    color: dimgrey;
+    margin-left: 176px;
+}
+
+.History-details {
+    width: 100%;
+}
+
+.user-image {
+    border: 0.5px solid;
+    margin-left: 176px;
+}
+
+/* .style-container{
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+} */
+
+.button-container{
+    margin-bottom: 25px;
+    margin-left: 176px;
+}
