@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Home from './Home';
-import History from './History';
+import Home from './Home';
+// import History from './History';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Home/> */}
-    <History/>
+    <Home/>
+    {/* <History/> */}
+    {/* <App /> */}
   </React.StrictMode>
 );
 
